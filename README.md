@@ -1,3 +1,6 @@
+**NOTE: MODIFIED VERSION**
+This version of WiringPi has been modified to allow the use of more than 20 columns in lcds
+
 # WiringPi Library
 
 Welcome to the WiringPi Library, the highly performant GPIO access library for Raspberry Pi boards. This library is written in C and is designed to provide fast and efficient control of the GPIO pins by directly accessing the hardware registers using DMA. 
