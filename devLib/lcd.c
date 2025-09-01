@@ -1,4 +1,6 @@
-/*
+/* ! MODIFIED VERSION !
+ * This version has been modified to allow displays with more than 20 columns
+ *
  * lcd.c:
  *	Text-based LCD driver.
  *	This is designed to drive the parallel interface LCD drivers
@@ -391,7 +393,7 @@ int lcdInit (const int rows, const int cols, const int bits,
   if ((rows < 0) || (rows > 20))
     return -1 ;
 
-  if ((cols < 0) || (cols > 20))
+  if ((cols < 0) || (cols > 80))
     return -1 ;
 
 // Create a new LCD:
